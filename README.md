@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## ファイル構成メモメモ
+src/
+├── app/
+│   ├── components/     <-- コンポーネントを配置するディレクトリ
+│   ├── services/       <-- サービスを配置するディレクトリ
+│   ├── models/         <-- データモデルを配置するディレクトリ
+│   ├── app.component.html
+│   ├── app.component.scss
+│   ├── app.component.ts
+│   ├── app.module.ts   <-- アプリケーションのメインモジュール
+│   └── app-routing.module.ts <-- ルーティングモジュール
+├── assets/             <-- 画像やスタイルシートなどの静的ファイル
+├── environments/       <-- 環境固有の設定ファイル
+└── ...
